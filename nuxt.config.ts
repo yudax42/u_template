@@ -4,6 +4,6 @@ export default defineNuxtConfig({
   },
   telemetry: false,
   routeRules: {
-    "/*": { isr: true },
+    "/*": { ssr: true },
   },
 });
