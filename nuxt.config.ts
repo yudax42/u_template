@@ -3,7 +3,5 @@ export default defineNuxtConfig({
     transpile: ["vue-notion"],
   },
   telemetry: false,
-  routeRules: {
-    "/*": { ssr: true },
-  },
+  target: "static",
 });
